@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="2027/2/4–2/8 富國島五天四夜家族旅遊：航班、每日行程、餐食、住宿與景點介紹。">
+<meta property="og:title" content="富國島五天四夜">
+<meta property="og:description" content="2027/2/4–2/8 富國島家族旅遊行程">
+<meta property="og:image" content="https://lachusi21.github.io/phuquoc-2027/family.webp">
+<meta property="og:type" content="website">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>富國島五天四夜</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root{
+  --bg:#EEF3F1; --paper:#FFFFFF; --ink:#12302E; --muted:#56706C; --line:#D3E0DC;
+  --sea:#0F6B6A; --sea-soft:#DCEDEA; --sun:#B8661C; --sun-soft:#FBEBD8;
+  --show:#8B4FA8; --show-soft:#EFE3F5; --food:#B5543A; --food-soft:#F8E4DD;
+  --stay:#3C5A8C; --stay-soft:#E2E9F5; --warn:#A33A2A; --warn-soft:#FBE3DE;
+  --f-display:"LXGW WenKai TC","Kaiti TC","STKaiti","KaiTi",serif;
+  --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0D1B1C; --paper:#142627; --ink:#E4EEEC; --muted:#93AAA6; --line:#26403F;
+    --sea:#5CC2BB; --sea-soft:#173A3A; --sun:#F0A55A; --sun-soft:#3A2A18;
+    --show:#C99BE0; --show-soft:#2F2338; --food:#EC9175; --food-soft:#3A2420;
+    --stay:#93B0E3; --stay-soft:#1E2A40; --warn:#F08E7E; --warn-soft:#3C1F1B;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0D1B1C; --paper:#142627; --ink:#E4EEEC; --muted:#93AAA6; --line:#26403F;
+  --sea:#5CC2BB; --sea-soft:#173A3A; --sun:#F0A55A; --sun-soft:#3A2A18;
+  --show:#C99BE0; --show-soft:#2F2338; --food:#EC9175; --food-soft:#3A2420;
+  --stay:#93B0E3; --stay-soft:#1E2A40; --warn:#F08E7E; --warn-soft:#3C1F1B;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.75;padding-inline:16px}
+.wrap{max-width:860px;margin:0 auto;padding-block:40px 64px}
+h1,h2,h3{font-family:var(--f-display);font-weight:700;text-wrap:balance;margin:0;line-height:1.3}
+a{color:var(--sea)}
+
+.family{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--line)}
+header.hero{display:grid;gap:14px;padding-bottom:28px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--sea)}
+.hero h1{font-size:clamp(34px,7vw,52px)}
+.hero h1 small{display:block;font-size:.42em;color:var(--muted);font-weight:400;margin-top:4px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:14px;color:var(--muted)}
+.facts b{color:var(--ink);font-weight:500}
+.tet{background:var(--sun-soft);border-radius:10px;padding:12px 16px;font-size:14px}
+.tet b{color:var(--sun)}
+.legend-key{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted)}
+
+nav.days{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:6px;overflow-x:auto;padding-block:12px;margin-top:8px;border-bottom:1px solid var(--line)}
+nav.days a{flex:0 0 auto;text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:4px 14px;font-size:13px;white-space:nowrap}
+nav.days a:hover,nav.days a:focus-visible{border-color:var(--sea);color:var(--sea);outline:none}
+nav.days a span{font-family:var(--f-mono);font-size:11px;color:var(--muted);margin-left:6px}
+
+/* flights */
+.flights{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.flight{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;gap:10px}
+.fl-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.fl-no{font-family:var(--f-mono);font-size:20px;font-weight:500}
+.fl-dir{font-size:13px;color:var(--muted)}
+.fl-route{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px}
+.fl-pt .t{font-family:var(--f-mono);font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums}
+.fl-pt .c{font-size:13px;color:var(--muted)}
+.fl-pt.r{text-align:right}
+.fl-mid{font-size:12px;color:var(--muted);text-align:center;border-bottom:1px dashed var(--line);padding-bottom:2px;min-width:56px}
+.fl-meta{font-size:12.5px;color:var(--muted)}
+
+section.day{display:grid;grid-template-columns:96px 1fr;gap:20px;padding-block:36px;border-bottom:1px solid var(--line);scroll-margin-top:64px}
+.date{position:sticky;top:76px;align-self:start;display:grid;gap:2px}
+.date .d-num{font-family:var(--f-mono);font-size:12px;color:var(--sea)}
+.date .d-day{font-family:var(--f-mono);font-size:34px;line-height:1;font-weight:500}
+.date .d-mon{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.date .d-wk{font-size:13px;color:var(--muted)}
+.day-body{display:grid;gap:18px;min-width:0}
+.day-body h2{font-size:26px}
+.day-body .area{font-size:13px;color:var(--muted);margin-top:-12px}
+
+.stops{list-style:none;margin:0;padding:0;display:grid}
+.stop{display:grid;grid-template-columns:18px 1fr;gap:12px;padding-bottom:18px;position:relative}
+.stop::before{content:"";position:absolute;left:8px;top:18px;bottom:0;width:2px;background:var(--line)}
+.stop:last-child::before{display:none}
+.dot{width:18px;height:18px;border-radius:50%;background:var(--paper);border:3px solid var(--sea);margin-top:4px}
+.stop.show .dot{border-color:var(--show)}
+.stop.food .dot{border-color:var(--food)}
+.stop.stay .dot{border-color:var(--stay)}
+.stop.move .dot{border-color:var(--muted)}
+.stop-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.stop h3{font-size:18px}
+.time{font-family:var(--f-mono);font-size:13px;color:var(--sea)}
+.site{font-size:12px;font-weight:500;text-decoration:none;border:1px solid var(--sea);border-radius:999px;padding:0 8px;color:var(--sea)}
+.site:hover,.site:focus-visible{background:var(--sea);color:var(--paper);outline:none}
+.en{font-size:12.5px;color:var(--muted)}
+.tag{font-size:11px;font-weight:500;padding:1px 8px;border-radius:999px;background:var(--sea-soft);color:var(--sea);letter-spacing:.04em}
+.show .tag{background:var(--show-soft);color:var(--show)}
+.food .tag{background:var(--food-soft);color:var(--food)}
+.stay .tag{background:var(--stay-soft);color:var(--stay)}
+.move .tag{background:var(--line);color:var(--muted)}
+.stop p{margin:4px 0 0;max-width:62ch}
+.info{margin:6px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted);display:grid;gap:2px}
+.info b{color:var(--ink);font-weight:500}
+.tip{display:block;margin-top:6px;font-size:13px;color:var(--muted)}
+.tip::before{content:"小提醒　";color:var(--sun);font-weight:700}
+.alert{display:block;margin-top:8px;font-size:13px;background:var(--warn-soft);border-radius:8px;padding:8px 12px}
+.alert::before{content:"注意　";color:var(--warn);font-weight:700}
+.tbd{display:inline-block;font-size:12px;font-weight:500;color:var(--warn);border:1px dashed var(--warn);border-radius:6px;padding:0 7px;margin-top:4px}
+
+.meals{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:10px;background:var(--paper);overflow:hidden}
+.meal{padding:10px 14px;border-left:1px solid var(--line);min-width:0}
+.meal:first-child{border-left:0}
+.meal .k{font-size:11px;color:var(--muted);letter-spacing:.1em}
+.meal .v{font-size:14px;font-weight:500;overflow-wrap:anywhere}
+.meal .v.none{color:var(--muted);font-weight:400}
+.hotel{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;font-size:14px}
+.hotel .k{font-size:11px;color:var(--stay);letter-spacing:.1em;font-weight:700}
+
+.block{padding-block:36px;border-bottom:1px solid var(--line);display:grid;gap:16px;scroll-margin-top:64px}
+.block h2{font-size:26px}
+.block .sub{font-size:13px;color:var(--muted);margin-top:-10px}
+.map-wrap{display:grid;grid-template-columns:minmax(0,300px) 1fr;gap:24px;align-items:center}
+.map-wrap svg{width:100%;height:auto;max-width:300px}
+.map-note{font-size:12px;color:var(--muted);margin:0}
+.legend{display:grid;gap:12px;font-size:14px}
+.legend div b{display:block;font-family:var(--f-display);font-size:17px}
+.legend .n{color:var(--sea)} .legend .c{color:var(--sun)} .legend .s{color:var(--show)}
+
+.cols{display:grid;grid-template-columns:2fr 1fr;gap:16px}
+.box{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.box h3{font-size:17px;margin-bottom:8px}
+.box ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:4px 16px;font-size:14px}
+.box.no ul{grid-template-columns:1fr}
+.box li::before{content:"✓ ";color:var(--sea);font-weight:700}
+.box.no li::before{content:"✕ ";color:var(--food)}
+
+.tips{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 24px;font-size:14px}
+.plugs{margin:0;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;gap:14px}
+.plugs figcaption{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px}
+.plugs figcaption b{font-family:var(--f-display);font-size:18px}
+.plugs .volt{font-family:var(--f-mono);font-size:15px;color:var(--sun);font-weight:500}
+.plugs .cmp{font-size:12.5px;color:var(--muted)}
+.plug-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.plug{display:grid;justify-items:center;text-align:center;gap:2px;font-size:13px;color:var(--muted)}
+.plug svg{width:88px;height:88px;margin-bottom:4px}
+.plug b{color:var(--ink);font-size:15px}
+.plug-note{margin:0;font-size:13px;background:var(--sun-soft);border-radius:8px;padding:8px 12px}
+.plug-note b{color:var(--sun)}
+@media (max-width:480px){.plug-row{gap:8px}.plug svg{width:70px;height:70px}}
+.tips dt{font-weight:700}
+.tips dd{margin:2px 0 0;color:var(--muted)}
+
+.sources{font-size:12.5px;color:var(--muted);display:grid;gap:10px}
+.sources h3{font-size:15px;color:var(--ink)}
+.sources ul{margin:4px 0 0;padding-left:18px;display:grid;gap:2px}
+.sources a{overflow-wrap:anywhere}
+footer{padding-top:28px;font-size:12.5px;color:var(--muted)}
+
+@media (max-width:640px){
+  section.day{grid-template-columns:1fr;gap:10px}
+  .date{position:static;display:flex;align-items:baseline;gap:10px}
+  .date .d-day{font-size:26px}
+  .flights,.map-wrap,.cols,.tips{grid-template-columns:1fr}
+  .map-wrap svg{margin:0 auto}
+  .meals{grid-template-columns:1fr}
+  .meal{border-left:0;border-top:1px solid var(--line);display:flex;gap:12px;align-items:baseline}
+  .meal:first-child{border-top:0}
+}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <img class="family" src="family.webp" width="1448" height="1086" alt="家族旅遊手繪插圖：15 位家人合照">
+  <div class="eyebrow">Phú Quốc · An Giang, Việt Nam</div>
+  <h1>富國島五天四夜<small>從北島動物園到南島日落小鎮</small></h1>
+  <div class="facts">
+    <span>日期 <b>2027/2/4（四）– 2/8（一）</b></span>
+    <span>航空 <b>太陽富國航空 9G</b></span>
+    <span>時差 <b>比台灣慢 1 小時</b></span>
+  </div>
+  <div class="tet"><b>正逢春節：</b>2027 年 2 月 6 日（六）是農曆大年初一（丁未羊年），越南新年（Tết）也在同一天。整趟行程都在過年假期裡，景點人潮會比較多，部分當地商店可能休息。</div>
+  <div class="legend-key"><span>內容於 2026/9/29 上網查證，來源列在頁尾。</span><span><span class="tbd">詳細資訊待查</span> 表示查不到可靠資料</span></div>
+</header>
+
+<nav class="days" aria-label="跳到某一段">
+  <a href="#map">地圖</a>
+  <a href="#tips">旅遊須知</a>
+  <a href="#flights">航班</a>
+  <a href="#day1">第一天<span>2/4</span></a>
+  <a href="#day2">第二天<span>2/5</span></a>
+  <a href="#day3">第三天<span>2/6</span></a>
+  <a href="#day4">第四天<span>2/7</span></a>
+  <a href="#day5">第五天<span>2/8</span></a>
+  <a href="#price">包含項目</a>
+  <a href="#sources">資料來源</a>
+</nav>
+
+<!-- MAP -->
+<section class="block" id="map">
+  <h2>島上位置</h2>
+  <p class="map-note">依經緯度簡化繪製，形狀與比例近似實際，景點位置為大約位置。</p>
+  <div class="map-wrap">
+    <svg viewBox="0 0 240 345" role="img" aria-label="富國島地圖：島形北寬南窄。北端西側有野生動物園、珍珠樂園、大世界；西岸中部有陽東鎮、機場和第一間飯店；南端有日落小鎮和第二間飯店，南方外海是香島">
+      <text x="14" y="196" font-family="Noto Sans TC, sans-serif" font-size="10" fill="var(--muted)" letter-spacing="2">暹羅灣</text>
+      <path d="M39.0 82.5 Q33.0 72.0 40.5 64.5 Q48.0 57.0 60.0 52.5 Q72.0 48.0 84.0 42.0 Q96.0 36.0 105.0 28.5 Q114.0 21.0 123.0 25.5 Q132.0 30.0 141.0 36.0 Q150.0 42.0 160.5 48.0 Q171.0 54.0 172.5 66.0 Q174.0 78.0 171.0 93.0 Q168.0 108.0 171.0 126.0 Q174.0 144.0 169.5 162.0 Q165.0 180.0 163.5 198.0 Q162.0 216.0 160.5 231.0 Q159.0 246.0 156.0 255.0 Q153.0 264.0 154.5 273.0 Q156.0 282.0 153.0 289.5 Q150.0 297.0 144.0 292.5 Q138.0 288.0 133.5 282.0 Q129.0 276.0 126.0 264.0 Q123.0 252.0 118.5 237.0 Q114.0 222.0 114.0 207.0 Q114.0 192.0 109.5 180.0 Q105.0 168.0 97.5 153.0 Q90.0 138.0 78.0 126.0 Q66.0 114.0 55.5 103.5 Q45.0 93.0 39.0 82.5 Z" fill="var(--sea-soft)" stroke="var(--sea)" stroke-width="1.5" stroke-linejoin="round"/>
+      <text x="128" y="120" font-family="LXGW WenKai TC, serif" font-size="15" fill="var(--sea)" text-anchor="middle" opacity=".55">富國島</text>
+      <circle cx="143" cy="303" r="2.2" fill="var(--sea-soft)" stroke="var(--sea)" stroke-width="1"/>
+      <circle cx="145" cy="311" r="2.2" fill="var(--sea-soft)" stroke="var(--sea)" stroke-width="1"/>
+      <ellipse cx="148" cy="323" rx="5.5" ry="10" fill="var(--sea-soft)" stroke="var(--sea)" stroke-width="1.5"/>
+      <path d="M137 288 L146 314" fill="none" stroke="var(--sun)" stroke-width="1.5" stroke-dasharray="3 2.5"/>
+      <g font-family="Noto Sans TC, sans-serif" font-size="10.5" fill="var(--ink)" stroke="var(--bg)" stroke-width="3" paint-order="stroke" stroke-linejoin="round">
+        <circle cx="52" cy="88" r="4.5" fill="var(--sea)" stroke-width="1.5"/><text x="60" y="84">動物園・珍珠樂園</text>
+        <circle cx="60" cy="102" r="4.5" fill="var(--sea)" stroke-width="1.5"/><text x="68" y="106">大世界</text>
+        <circle cx="111" cy="165" r="4.5" fill="var(--sun)" stroke-width="1.5"/><text x="119" y="169">陽東鎮</text>
+        <circle cx="126" cy="192" r="4.5" fill="var(--sun)" stroke-width="1.5"/><text x="134" y="196">機場 PQC</text>
+        <rect x="116" y="211" width="8" height="8" fill="var(--stay)" stroke-width="1.5"/><text x="129" y="219">飯店①</text>
+        <circle cx="134" cy="278" r="4.5" fill="var(--show)" stroke-width="1.5"/><text x="127" y="275" text-anchor="end">日落小鎮</text>
+        <rect x="146" y="270" width="8" height="8" fill="var(--stay)" stroke-width="1.5"/><text x="159" y="278">飯店②</text>
+        <text x="157" y="327">香島</text>
+        <text x="138" y="312" text-anchor="end" font-size="9.5" fill="var(--muted)">纜車</text>
+      </g>
+      <g font-family="IBM Plex Mono, monospace" font-size="9" fill="var(--muted)">
+        <path d="M218 20 L222 32 L218 29 L214 32 Z" fill="var(--muted)"/><text x="218" y="44" text-anchor="middle">N</text>
+        <path d="M14 330 H68" stroke="var(--muted)" stroke-width="1.5"/><path d="M14 326 V334 M68 326 V334" stroke="var(--muted)" stroke-width="1"/>
+        <text x="41" y="322" text-anchor="middle">10 km</text>
+      </g>
+    </svg>
+    <div class="legend">
+      <div><b class="n">北島｜第 2–3 天</b>野生動物園、珍珠樂園、大世界都在北部的甘浪、長灘一帶。</div>
+      <div><b class="c">中部｜第 1 天</b>陽東鎮是島上主要的市區，機場在它南邊。第一間飯店（The Residence）在機場附近的西岸長灘（Bãi Trường）。</div>
+      <div><b class="s">南島｜第 3–5 天</b>日落小鎮、親吻橋和纜車站都在南端的安泰，第二間飯店在附近的 Khem 海灘。北島開到南島約 60 公里，車程 1 小時到 1 小時 15 分。</div>
+    </div>
+  </div>
+</section>
+
+<!-- TIPS -->
+<section class="block" id="tips">
+  <h2>旅遊須知</h2>
+  <dl class="tips">
+    <div><dt>天氣</dt><dd>2 月是富國島最乾燥的月份之一，白天約 23–31°C，夜間低溫約 22°C，整個月只有約 6 天下雨。</dd></div>
+    <div><dt>入境免簽</dt><dd>所有國籍的旅客都可以免簽停留富國島 30 天，條件是從國外直飛富國島（台北直飛符合），期間只待在島上，並從富國島直接離境。護照效期需要 6 個月以上。</dd></div>
+    <div><dt>貨幣</dt><dd>越南盾（VND）。</dd></div>
+    <div><dt>電壓與插座</dt><dd>220V、50Hz，插座有 A、C、F 型，見下方示意圖。</dd></div>
+    <div><dt>小費</dt><dd>司機、導遊小費不含在行程內，請另外準備。</dd></div>
+    <div><dt>春節期間</dt><dd>2027 年春節連假依不同資料，大約是 2/5–2/9 或 2/3–2/11。假期中部分商店會休息。</dd></div>
+  </dl>
+  <figure class="plugs">
+    <figcaption><b>越南插座</b><span class="volt">220V・50Hz</span><span class="cmp">台灣是 110V・60Hz</span></figcaption>
+    <div class="plug-row">
+      <div class="plug">
+        <svg viewBox="0 0 100 100" role="img" aria-label="A 型插座：兩個平行扁孔">
+          <rect x="6" y="6" width="88" height="88" rx="16" fill="var(--paper)" stroke="var(--line)" stroke-width="2"/>
+          <rect x="33" y="36" width="7" height="24" rx="2" fill="var(--ink)"/>
+          <rect x="60" y="36" width="7" height="24" rx="2" fill="var(--ink)"/>
+        </svg>
+        <b>A 型</b><span>兩個扁孔，跟台灣一樣，台灣插頭可以直接插</span>
+      </div>
+      <div class="plug">
+        <svg viewBox="0 0 100 100" role="img" aria-label="C 型插座：兩個圓孔">
+          <rect x="6" y="6" width="88" height="88" rx="16" fill="var(--paper)" stroke="var(--line)" stroke-width="2"/>
+          <circle cx="37" cy="50" r="5.5" fill="var(--ink)"/>
+          <circle cx="63" cy="50" r="5.5" fill="var(--ink)"/>
+        </svg>
+        <b>C 型</b><span>兩個圓孔（歐規），需要轉接頭</span>
+      </div>
+      <div class="plug">
+        <svg viewBox="0 0 100 100" role="img" aria-label="F 型插座：凹槽內兩個圓孔，上下各一片金屬接地片">
+          <rect x="6" y="6" width="88" height="88" rx="16" fill="var(--paper)" stroke="var(--line)" stroke-width="2"/>
+          <circle cx="50" cy="50" r="33" fill="var(--sea-soft)" stroke="var(--line)" stroke-width="2"/>
+          <circle cx="37" cy="50" r="5.5" fill="var(--ink)"/>
+          <circle cx="63" cy="50" r="5.5" fill="var(--ink)"/>
+          <rect x="43" y="17" width="14" height="6" rx="2" fill="var(--muted)"/>
+          <rect x="43" y="77" width="14" height="6" rx="2" fill="var(--muted)"/>
+        </svg>
+        <b>F 型</b><span>凹槽內兩個圓孔，上下有接地片，需要轉接頭</span>
+      </div>
+    </div>
+    <p class="plug-note"><b>出發前檢查：</b>看充電器或電器上的標示，寫「100–240V」的（手機、筆電充電器大多是）可以直接用；只寫「110V」的（例如部分吹風機、電湯匙）不能直接插，否則會燒壞。建議帶一個萬用轉接頭。</p>
+  </figure>
+</section>
+
+<!-- FLIGHTS -->
+<section class="block" id="flights">
+  <h2>航班</h2>
+  <div class="sub">太陽富國航空（Sun PhuQuoc Airways，代碼 9G）。台北–富國島是這家航空公司的第一條國際航線，2026 年 3 月 29 日開航。</div>
+  <div class="flights">
+    <div class="flight">
+      <div class="fl-top"><span class="fl-no">9G511</span><span class="fl-dir">去程・2/4（四）</span></div>
+      <div class="fl-route">
+        <div class="fl-pt"><div class="t">17:35</div><div class="c">台北桃園 TPE<br>第一航廈</div></div>
+        <div class="fl-mid">約 3 小時 50 分</div>
+        <div class="fl-pt r"><div class="t">20:25</div><div class="c">富國島 PQC</div></div>
+      </div>
+      <div class="fl-meta">機型：A321neo（部分班次為 A320）</div>
+    </div>
+    <div class="flight">
+      <div class="fl-top"><span class="fl-no">9G510</span><span class="fl-dir">回程・2/8（一）</span></div>
+      <div class="fl-route">
+        <div class="fl-pt"><div class="t">11:30</div><div class="c">富國島 PQC</div></div>
+        <div class="fl-mid">約 3 小時 40 分</div>
+        <div class="fl-pt r"><div class="t">16:10</div><div class="c">台北桃園 TPE<br>第一航廈</div></div>
+      </div>
+      <div class="fl-meta">機型：A321neo（部分班次為 A320）</div>
+    </div>
+  </div>
+  <p class="alert" style="margin:0">這兩個航班號碼和航線都確實存在，但目前查得到的是 2026 年夏季的時刻表。2027 年 2 月的班表還沒公布，每週飛哪幾天（目前每週 5 班）也查不到，所以 2/4（四）和 2/8（一）有沒有飛<b>還無法確認</b>。請以機票或旅行社提供的時間為準，出發前再到航空公司官網確認。</p>
+</section>
+
+<!-- DAY 1 -->
+<section class="day" id="day1">
+  <div class="date"><span class="d-num">DAY 1</span><span class="d-day">04</span><span class="d-mon">FEB 2027</span><span class="d-wk">星期四</span></div>
+  <div class="day-body">
+    <h2>抵達富國島</h2>
+    <div class="area">機場 → 陽東鎮 → 長灘（Bãi Trường）</div>
+    <ol class="stops">
+      <li class="stop move"><span class="dot"></span><div>
+        <div class="stop-head"><span class="time">20:25</span><h3>抵達富國國際機場，導遊接機</h3><span class="tag">交通</span></div>
+        <p>機場到陽東鎮市區約 9–10 公里，車程約 15–20 分鐘，塞車時可能到 30 分鐘。行程已含入境快速通關。</p>
+      </div></li>
+      <li class="stop food"><span class="dot"></span><div>
+        <div class="stop-head"><h3>N90 燒烤自助餐</h3><span class="en">Nhà hàng Ninety – N90 Buffet BBQ &amp; Hotpot</span><a class="site" href="https://www.facebook.com/N90Restaurant/" target="_blank" rel="noopener">官方 Facebook ↗</a><span class="tag">晚餐</span></div>
+        <p>燒烤、海鮮加火鍋的自助餐，有 50 多道菜，晚上有音樂和舞蹈表演。</p>
+        <ul class="info"><li><b>地址</b>　90-92 Trần Hưng Đạo, Dương Đông</li><li><b>營業</b>　17:00–22:00</li></ul>
+        <span class="alert">餐廳營業到 22:00。飛機 20:25 落地，出關、上車後大約 21:00 才到得了，用餐時間很趕。建議先問旅行社會怎麼安排。</span>
+      </div></li>
+      <li class="stop"><span class="dot"></span><div>
+        <div class="stop-head"><h3>陽東夜市</h3><span class="en">Chợ đêm Dương Đông</span><span class="tag">景點</span></div>
+        <p>原本位於陽東鎮丁舅廟（Dinh Cậu）旁的富國島夜市，<b>已經在 2026 年停止營業</b>。它的 10 年場地合約在 2025 年底到期，攤商做到 2026 年春節後，場地在 3 月底交還，4 月開始拆除。當地政府表示夜市不會取消，正在找新場地，但目前還沒有確定新地點。</p>
+        <p>媒體提到的替代夜市有三個：北島大世界夜市、南島日落小鎮的 VUI-Fest 市集，以及長灘附近 Trần Hưng Đạo 路上的夜市。</p>
+        <span class="tbd">詳細資訊待查：這一站實際會去哪個夜市，請向旅行社確認</span>
+      </div></li>
+      <li class="stop stay"><span class="dot"></span><div>
+        <div class="stop-head"><h3>入住 The Residence Resort &amp; Villas</h3><a class="site" href="https://theresidenceresortphuquoc.com/" target="_blank" rel="noopener">官網 ↗</a><span class="tag">住宿</span></div>
+        <p>四星級的全別墅度假村，有管家服務，每棟是 2–4 房的私人泳池別墅。位於島西南岸的長灘（Bãi Trường，Dương Tơ 一帶）。</p>
+      </div></li>
+    </ol>
+    <div class="meals">
+      <div class="meal"><div class="k">早餐</div><div class="v none">自理</div></div>
+      <div class="meal"><div class="k">午餐</div><div class="v none">自理</div></div>
+      <div class="meal"><div class="k">晚餐</div><div class="v">N90 燒烤自助餐</div></div>
+    </div>
+    <div class="hotel"><span class="k">住宿</span><span>The Residence Resort &amp; Villas Phu Quoc（四星）</span><a class="site" href="https://theresidenceresortphuquoc.com/" target="_blank" rel="noopener">官網 ↗</a></div>
+  </div>
+</section>
+
+<!-- DAY 2 -->
+<section class="day" id="day2">
+  <div class="date"><span class="d-num">DAY 2</span><span class="d-day">05</span><span class="d-mon">FEB 2027</span><span class="d-wk">星期五・除夕</span></div>
+  <div class="day-body">
+    <h2>野生動物園與大世界</h2>
+    <div class="area">北島・甘浪（Gành Dầu）／長灘（Bãi Dài）</div>
+    <ol class="stops">
+      <li class="stop"><span class="dot"></span><div>
+        <div class="stop-head"><h3>富國島野生動物園</h3><span class="en">Vinpearl Safari Phú Quốc</span><a class="site" href="https://vinwonders.com/en/vinpearl-safari-phu-quoc/" target="_blank" rel="noopener">官網 ↗</a><span class="tag">景點</span></div>
+        <p>號稱越南最大的野生動物園，位於島的北端，佔地 380 公頃，有約 200 種、超過 4,000 隻動物。園區分成兩部分：可以步行參觀的動物園，以及搭遊園車穿過動物活動範圍的開放式 Safari 區。</p>
+        <ul class="info"><li><b>開放</b>　09:00–16:00</li></ul>
+        <span class="tip">園區很大，戶外日照強，記得帶帽子、防曬和水。</span>
+      </div></li>
+      <li class="stop food"><span class="dot"></span><div>
+        <div class="stop-head"><h3>越式料理</h3><span class="tag">午餐</span></div>
+        <span class="tbd">詳細資訊待查：餐廳名稱未提供</span>
+      </div></li>
+      <li class="stop"><span class="dot"></span><div>
+        <div class="stop-head"><h3>富國大世界</h3><span class="en">Grand World Phú Quốc</span><a class="site" href="https://vinwonders.com/en/grand-world-phu-quoc/" target="_blank" rel="noopener">官網 ↗</a><span class="tag">景點</span></div>
+        <p>被稱為「不夜城」的綜合娛樂區，位於島北的長灘。街區仿照威尼斯打造，有運河和貢多拉船。<b>進入園區免費</b>，但泰迪熊博物館、貢多拉船和「越南精華」表演都要另外買票。行程表寫明含景點門票。</p>
+      </div></li>
+      <li class="stop"><span class="dot"></span><div>
+        <div class="stop-head"><h3>貢多拉船</h3><span class="en">Gondola</span><span class="tag">體驗</span></div>
+        <p>搭乘威尼斯式的貢多拉小船遊大世界運河。</p>
+      </div></li>
+      <li class="stop"><span class="dot"></span><div>
+        <div class="stop-head"><h3>泰迪熊博物館</h3><span class="en">Teddy Bear Museum</span><span class="tag">景點</span></div>
+        <p>展出 500 多隻泰迪熊，展覽跟著探險家「Teddy Jones」的環遊世界故事走，另外有一區介紹越南文化，例如穿奧黛的泰迪熊。</p>
+      </div></li>
+      <li class="stop"><span class="dot"></span><div>
+        <div class="stop-head"><h3>每人一小時按摩或越式洗頭</h3><span class="tag">已含</span></div>
+        <p>二選一。越式洗頭（gội đầu dưỡng sinh）是躺在按摩床上洗頭，通常用草本洗髮水，並包含頭部、肩頸按摩，很多店也會加上熱毛巾。</p>
+        <span class="tbd">詳細資訊待查：按摩店名稱未提供</span>
+      </div></li>
+      <li class="stop food"><span class="dot"></span><div>
+        <div class="stop-head"><h3>SAIGON DOMAIN 餐廳</h3><a class="site" href="https://vinpearl.com/en/phu-quoc/am-thuc/saigon-domain" target="_blank" rel="noopener">官網 ↗</a><span class="tag">晚餐</span></div>
+        <p>大世界裡的歐式精緻餐廳，湖畔座位正對水舞秀的舞台。</p>
+      </div></li>
+      <li class="stop show"><span class="dot"></span><div>
+        <div class="stop-head"><span class="time">21:30</span><h3>大世界燈光水舞秀</h3><span class="en">Sắc màu Venice（威尼斯色彩）</span><a class="site" href="https://vinwonders.com/vi/charm-of-venice/" target="_blank" rel="noopener">官網 ↗</a><span class="tag">表演</span></div>
+        <p>在大世界的愛情湖（Hồ Tình Yêu）演出，結合水舞、燈光和 3D 投影，免費觀賞。</p>
+        <ul class="info"><li><b>時間</b>　官網寫每晚 21:30–22:00，也有部落格寫 20:00–20:45，以當天公告為準</li></ul>
+      </div></li>
+    </ol>
+    <div class="meals">
+      <div class="meal"><div class="k">早餐</div><div class="v">飯店</div></div>
+      <div class="meal"><div class="k">午餐</div><div class="v">越式料理</div></div>
+      <div class="meal"><div class="k">晚餐</div><div class="v">SAIGON DOMAIN 餐廳</div></div>
+    </div>
+    <div class="hotel"><span class="k">住宿</span><span>The Residence Resort &amp; Villas Phu Quoc（四星）</span><a class="site" href="https://theresidenceresortphuquoc.com/" target="_blank" rel="noopener">官網 ↗</a></div>
+  </div>
+</section>
+
+<!-- DAY 3 -->
+<section class="day" id="day3">
+  <div class="date"><span class="d-num">DAY 3</span><span class="d-day">06</span><span class="d-mon">FEB 2027</span><span class="d-wk">星期六・初一</span></div>
+  <div class="day-body">
+    <h2>珍珠樂園・移住南島</h2>
+    <div class="area">北島 → 陽東 → 南島・安泰（An Thới）</div>
+    <ol class="stops">
+      <li class="stop move"><span class="dot"></span><div>
+        <div class="stop-head"><h3>出門順便退房</h3><span class="tag">交通</span></div>
+        <p>行李隨車，今晚換到南島的飯店。</p>
+      </div></li>
+      <li class="stop"><span class="dot"></span><div>
+        <div class="stop-head"><h3>珍珠遊樂園</h3><span class="en">VinWonders Phú Quốc（原 Vinpearl Land）</span><a class="site" href="https://vinwonders.com/en/vinwonders-phu-quoc/" target="_blank" rel="noopener">官網 ↗</a><span class="tag">景點</span></div>
+        <p>官網稱它是越南最大的主題樂園，就在野生動物園旁邊。園區分成六區：歐洲大道（城堡區）、奇幻世界、維京村、颱風世界水上樂園、海龜造型的「海貝」水族館（The Sea Shell），以及冒險世界。</p>
+        <ul class="info"><li><b>開放</b>　樂園 09:00–19:30；水族館 10:00–18:00</li></ul>
+        <span class="tip">要玩水上樂園的話，記得帶泳衣和替換衣物。</span>
+      </div></li>
+      <li class="stop food"><span class="dot"></span><div>
+        <div class="stop-head"><h3>海底餐廳</h3><span class="en">Deep Sea Restaurant</span><span class="tag">午餐</span></div>
+        <p>位於海龜水族館一樓，可以一邊用餐一邊看魚群游過。</p>
+        <ul class="info"><li><b>營業</b>　10:00–18:00（最後點餐 17:30）</li></ul>
+      </div></li>
+      <li class="stop"><span class="dot"></span><div>
+        <div class="stop-head"><h3>金剛超市</h3><span class="en">KingKong Mart</span><a class="site" href="https://www.facebook.com/sieuthikingkong/" target="_blank" rel="noopener">官方 Facebook ↗</a><span class="tag">購物</span></div>
+        <p>富國島最大的名產超市，也是旅行團常去的購物站，店內有咖啡廳和換匯櫃檯。地址是陽東鎮 141A Trần Hưng Đạo。</p>
+        <p>富國島有名的特產有魚露、黑胡椒、珍珠和桃金孃酒（sim）。</p>
+      </div></li>
+      <li class="stop stay"><span class="dot"></span><div>
+        <div class="stop-head"><h3>入住南島飯店</h3><a class="site" href="https://premierresidencesphuquoc.com/" target="_blank" rel="noopener">官網 ↗</a><span class="tag">住宿</span></div>
+        <p>Premier Residences Phu Quoc Emerald Bay，五星級飯店，由雅高（Accor）集團管理，位於南島安泰的 Khem 海灘（Bãi Khem）。離日落小鎮約 3.4 公里，車程 6–10 分鐘，有免費接駁車每 30 分鐘一班，營運到 22:00；離香島纜車站約 7 分鐘車程。</p>
+      </div></li>
+      <li class="stop food"><span class="dot"></span><div>
+        <div class="stop-head"><h3>紅珊瑚餐廳 海鮮拼盤</h3><span class="tag">晚餐</span></div>
+        <span class="tbd">詳細資訊待查：用中文、英文都查不到這家餐廳</span>
+      </div></li>
+      <li class="stop show"><span class="dot"></span><div>
+        <div class="stop-head"><span class="time">21:00</span><h3>KISS OF THE SEA</h3><span class="en">Nụ Hôn Của Biển（海之吻）</span><a class="site" href="https://sunparadiseland.com/en/SunParadiseLandPhuQuoc/tin-tuc/lich-dien-show-dien-nu-hon-cua-bien-ca-kiss-of-the-sea-17865" target="_blank" rel="noopener">官網 ↗</a><span class="tag">表演</span></div>
+        <p>在日落小鎮演出的大型多媒體秀，用約 1,000 平方公尺的水幕投影，加上雷射、火焰特效，最後以煙火收尾。故事講述富國島少年與銀河守護者的愛情，靠著愛與團結打敗黑暗勢力。2025 年 4 月獲金氏世界紀錄認證為「最大的常設水幕投影劇場」。</p>
+        <ul class="info"><li><b>時間</b>　官網公告每晚 21:00，約 30 分鐘；可能因天候調整，以當天公告為準</li><li><b>星期二</b>　照常演出但沒有演員；2/6 是星期六，不受影響</li></ul>
+        <span class="tip">秀場在戶外的海邊，建議帶件薄外套。</span>
+      </div></li>
+    </ol>
+    <div class="meals">
+      <div class="meal"><div class="k">早餐</div><div class="v">飯店</div></div>
+      <div class="meal"><div class="k">午餐</div><div class="v">海底餐廳</div></div>
+      <div class="meal"><div class="k">晚餐</div><div class="v">紅珊瑚餐廳 海鮮拼盤</div></div>
+    </div>
+    <div class="hotel"><span class="k">住宿</span><span>Premier Residences Phu Quoc Emerald Bay（五星）</span><a class="site" href="https://premierresidencesphuquoc.com/" target="_blank" rel="noopener">官網 ↗</a></div>
+  </div>
+</section>
+
+<!-- DAY 4 -->
+<section class="day" id="day4">
+  <div class="date"><span class="d-num">DAY 4</span><span class="d-day">07</span><span class="d-mon">FEB 2027</span><span class="d-wk">星期日</span></div>
+  <div class="day-body">
+    <h2>跨海纜車與香島</h2>
+    <div class="area">南島・安泰 ↔ 香島（Hòn Thơm）</div>
+    <ol class="stops">
+      <li class="stop"><span class="dot"></span><div>
+        <div class="stop-head"><h3>香島跨海纜車</h3><span class="en">Hòn Thơm Cable Car</span><a class="site" href="https://sunworld.vn/en/hon-thom" target="_blank" rel="noopener">官網 ↗</a><span class="tag">景點</span></div>
+        <p>全長 7,899.9 公尺，2018 年 1 月獲金氏世界紀錄認證為「最長的不間斷三線纜車」，同年 2 月 4 日開放。從日落小鎮旁的安泰站出發，經過椰子島（Hòn Dừa）和 Hòn Rỏi 兩座小島，抵達香島，單程約 15 分鐘。</p>
+        <ul class="info"><li><b>營運</b>　各資料寫的時間不一致，大約 9:00–17:00，中午休息約 1.5 小時，以當天公告為準</li></ul>
+      </div></li>
+      <li class="stop"><span class="dot"></span><div>
+        <div class="stop-head"><h3>香島樂園・水上樂園</h3><span class="en">Sun World Hòn Thơm / Aquatopia</span><a class="site" href="https://sunworld.vn/en/hon-thom" target="_blank" rel="noopener">官網 ↗</a><span class="tag">景點</span></div>
+        <p>纜車終點的香島上有自然公園、海灘，以及 Aquatopia 水上樂園，裡面有滑水道、漂漂河和兒童戲水區。</p>
+      </div></li>
+      <li class="stop food"><span class="dot"></span><div>
+        <div class="stop-head"><h3>香島樂園自助餐</h3><span class="tag">午餐</span></div>
+        <p>島上常見的套票會含 Mango 或 Ba Miền 餐廳的自助午餐。</p>
+        <span class="tbd">詳細資訊待查：實際是哪一間餐廳</span>
+      </div></li>
+      <li class="stop"><span class="dot"></span><div>
+        <div class="stop-head"><h3>地中海小鎮（日落小鎮）</h3><span class="en">Sunset Town / Thị trấn Hoàng Hôn</span><a class="site" href="https://sunsettown.com.vn/en" target="_blank" rel="noopener">官網 ↗</a><span class="tag">景點</span></div>
+        <p>位於島西南岸的安泰，整個小鎮是義大利、地中海風格，房子漆成各種鮮豔顏色，以看夕陽聞名。地標是 75 公尺高的威尼斯鐘樓，仿照威尼斯的聖馬可鐘樓建造。</p>
+      </div></li>
+      <li class="stop"><span class="dot"></span><div>
+        <div class="stop-head"><h3>親吻橋</h3><span class="en">Kiss Bridge / Cầu Hôn</span><a class="site" href="https://sunsettown.com.vn/en" target="_blank" rel="noopener">官網 ↗</a><span class="tag">景點</span></div>
+        <p>由義大利建築師 Marco Casamonti 設計，全長超過 800 公尺，靈感來自米開朗基羅的名畫《創造亞當》。兩段橋身伸向海面，但沒有接在一起，中間留著約 30 公分的空隙。</p>
+      </div></li>
+      <li class="stop food"><span class="dot"></span><div>
+        <div class="stop-head"><h3>SUNBRAVIA 餐廳</h3><span class="en">很可能是 Sun Bavaria GastroPub</span><span class="tag">晚餐</span></div>
+        <p>用這個名稱查不到，最接近的是日落小鎮的 Sun Bavaria GastroPub。這是一間德式精釀啤酒餐廳，有紅色圓頂，位在威尼斯街上、正對親吻橋，供應巴伐利亞料理和海鮮拼盤，在店裡就看得到煙火。</p>
+        <span class="tbd">詳細資訊待查：請向旅行社確認是否就是這間</span>
+      </div></li>
+      <li class="stop show"><span class="dot"></span><div>
+        <div class="stop-head"><span class="time">19:30</span><h3>SYMPHONY OF THE SEA</h3><span class="en">海洋交響曲</span><a class="site" href="https://sunparadiseland.com/en/tin-tuc/schedule-and-location-of-the-symphony-of-the-seashow-12958" target="_blank" rel="noopener">官網 ↗</a><span class="tag">表演</span></div>
+        <p>和 Kiss of the Sea 是不同的表演。在親吻橋前的海灣演出，約 1,000 發煙火，加上水上煙火、雷射，以及 24 位水上摩托車、飛行板選手的特技，全程配合音樂。</p>
+        <ul class="info"><li><b>時間</b>　每晚演出，官網文章有的寫 19:30、有的寫 19:45 開始，以當天公告為準</li></ul>
+      </div></li>
+    </ol>
+    <div class="meals">
+      <div class="meal"><div class="k">早餐</div><div class="v">飯店</div></div>
+      <div class="meal"><div class="k">午餐</div><div class="v">香島樂園自助餐</div></div>
+      <div class="meal"><div class="k">晚餐</div><div class="v">SUNBRAVIA 餐廳</div></div>
+    </div>
+    <div class="hotel"><span class="k">住宿</span><span>Premier Residences Phu Quoc Emerald Bay（五星）</span><a class="site" href="https://premierresidencesphuquoc.com/" target="_blank" rel="noopener">官網 ↗</a></div>
+  </div>
+</section>
+
+<!-- DAY 5 -->
+<section class="day" id="day5">
+  <div class="date"><span class="d-num">DAY 5</span><span class="d-day">08</span><span class="d-mon">FEB 2027</span><span class="d-wk">星期一</span></div>
+  <div class="day-body">
+    <h2>退房・送機</h2>
+    <div class="area">南島 → 富國國際機場</div>
+    <ol class="stops">
+      <li class="stop move"><span class="dot"></span><div>
+        <div class="stop-head"><h3>退房，送到機場</h3><span class="tag">交通</span></div>
+        <p>從日落小鎮、安泰一帶到機場約 18–23 公里，車程 25–30 分鐘，塞車時可能到 40 分鐘。</p>
+        <span class="tip">魚露不能帶上飛機當手提行李。托運的規定依航空公司而定，例如越南航空限每人 3 公升，要用塑膠瓶密封並裝進保麗龍箱。太陽富國航空的規定我查不到，買之前請先問航空公司。</span>
+      </div></li>
+      <li class="stop move"><span class="dot"></span><div>
+        <div class="stop-head"><span class="time">11:30</span><h3>搭乘 9G510 返回台北</h3><span class="tag">航班</span></div>
+        <p>預計 16:10 抵達桃園機場第一航廈。</p>
+      </div></li>
+    </ol>
+    <div class="meals">
+      <div class="meal"><div class="k">早餐</div><div class="v">飯店</div></div>
+      <div class="meal"><div class="k">午餐</div><div class="v none">自理</div></div>
+      <div class="meal"><div class="k">晚餐</div><div class="v none">自理</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICE -->
+<section class="block" id="price">
+  <h2>行程包含項目</h2>
+  <div class="cols">
+    <div class="box">
+      <h3>費用包含</h3>
+      <ul>
+        <li>全程包車</li><li>中文導遊</li>
+        <li>旅遊平安保險</li><li>景點門票</li>
+        <li>車上礦泉水</li><li>星級飯店住宿</li>
+        <li>全程餐食（標示自理除外）</li><li>入境快速通關</li>
+        <li>第二天按摩或洗頭</li>
+      </ul>
+    </div>
+    <div class="box no">
+      <h3>費用不含</h3>
+      <ul><li>機票</li><li>司機、導遊小費</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- SOURCES -->
+<section class="block sources" id="sources">
+  <h2>資料來源</h2>
+  <div><h3>航班</h3><ul>
+    <li><a href="https://www.aeroroutes.com/eng/260610-9gaug26tpe" target="_blank" rel="noopener">AeroRoutes：Sun PhuQuoc Airways 台北航線班表</a></li>
+    <li><a href="https://www.flightstats.com/v2/flight-tracker/9G/511" target="_blank" rel="noopener">FlightStats：9G511</a>・<a href="https://www.flightstats.com/v2/flight-tracker/9G/510" target="_blank" rel="noopener">9G510</a></li>
+    <li><a href="https://vietnamnet.vn/en/sun-phuquoc-airways-launches-first-international-route-to-taipei-2501788.html" target="_blank" rel="noopener">VietnamNet：首條國際航線台北開航</a></li>
+  </ul></div>
+  <div><h3>北島與中部</h3><ul>
+    <li><a href="https://baonghean.vn/en/phu-quoc-3-khu-cho-dem-thay-the-soi-dong-khi-cho-duong-dong-chinh-thuc-dong-cua-10323106.html" target="_blank" rel="noopener">陽東夜市關閉與三個替代夜市</a>・<a href="https://tuoitre.vn/phunuonline/cho-dem-phu-quoc-dang-thao-do-1101581119.htm" target="_blank" rel="noopener">夜市拆除報導</a></li>
+    <li><a href="https://en.gurutto-vietnam.com/detail/6522/index.html" target="_blank" rel="noopener">N90 餐廳</a>・<a href="https://theresidenceresortphuquoc.com/" target="_blank" rel="noopener">The Residence Resort &amp; Villas</a></li>
+    <li><a href="https://vinwonders.com/en/vinpearl-safari-phu-quoc/" target="_blank" rel="noopener">Vinpearl Safari 官網</a>・<a href="https://vinwonders.com/en/vinwonders-phu-quoc/" target="_blank" rel="noopener">VinWonders 官網</a>・<a href="https://vinwonders.com/en/wonderpedia/news/vinwonders-phu-quoc-opening-hours/" target="_blank" rel="noopener">開放時間</a></li>
+    <li><a href="https://vinwonders.com/vi/charm-of-venice/" target="_blank" rel="noopener">Sắc màu Venice 水舞秀</a>・<a href="https://vinwonders.com/en/wonderpedia/news/teddy-bear-museum-phu-quoc/" target="_blank" rel="noopener">泰迪熊博物館</a>・<a href="https://vinpearl.com/en/phu-quoc/am-thuc/saigon-domain" target="_blank" rel="noopener">Saigon Domain</a></li>
+    <li><a href="https://almablog.tw/blog/post/kingkong-mart" target="_blank" rel="noopener">金剛超市 KingKong Mart</a></li>
+  </ul></div>
+  <div><h3>南島</h3><ul>
+    <li><a href="https://www.guinnessworldrecords.com/world-records/404878-longest-non-stop-three-rope-cable-car" target="_blank" rel="noopener">金氏世界紀錄：香島纜車</a>・<a href="https://blog.premierresidencesphuquoc.com/hon-thom-cable-car/" target="_blank" rel="noopener">纜車營運時間</a></li>
+    <li><a href="https://www.kkday.com/en/blog/88657/sun-world-hon-thom-ticket-guide-and-experience" target="_blank" rel="noopener">Sun World Hon Thom 票券與自助餐</a></li>
+    <li><a href="https://sunset-town.com/en/kham-pha-thi-tran-hoang-hon-sunset-town-thi-tran-dam-chat-dia-trung-hai-tai-phu-quoc/" target="_blank" rel="noopener">日落小鎮</a>・<a href="https://www.cnn.com/travel/vietnam-kiss-bridge-phu-quoc-intl-hnk" target="_blank" rel="noopener">CNN：親吻橋</a></li>
+    <li><a href="https://visitphuquoc.com.vn/en/latest-2026-show-schedule-for-kiss-of-the-sea-phu-quoc-9030" target="_blank" rel="noopener">Kiss of the Sea 2026 班表</a>・<a href="https://premierresidencesphuquoc.com/discover-phu-quoc/symphony-of-the-sea/" target="_blank" rel="noopener">Symphony of the Sea</a></li>
+    <li><a href="https://premierresidencesphuquoc.com/" target="_blank" rel="noopener">Premier Residences Emerald Bay</a>・<a href="https://premierresidencesphuquoc.com/discover-phu-quoc/sun-bavaria-bistro/" target="_blank" rel="noopener">Sun Bavaria</a></li>
+  </ul></div>
+  <div><h3>旅遊須知</h3><ul>
+    <li><a href="https://www.weather-atlas.com/en/vietnam/phu-quoc-weather-february" target="_blank" rel="noopener">富國島 2 月天氣</a>・<a href="https://vietnamdiscovery.com/phu-quoc-visa-free/" target="_blank" rel="noopener">富國島免簽</a>・<a href="https://wise.com/gb/plug-types/vietnam" target="_blank" rel="noopener">越南插座</a></li>
+    <li><a href="https://www.vietnamairlines.com/vn/en/travel-information/baggage/restricted-baggage/ordor-baggage" target="_blank" rel="noopener">越南航空：魚露托運規定</a>・<a href="https://globalholidayscalendar.com/countries/vietnam/tet/2027" target="_blank" rel="noopener">2027 越南新年</a></li>
+  </ul></div>
+</section>
+
+<footer>行程依旅行社提供的行程表整理，景點資訊於 2026/9/29 上網查證。表演時間、營業時間和實際順序以當地公告及導遊安排為準。</footer>
+</div>
+</body>
+</html>
